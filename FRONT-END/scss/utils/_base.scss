@@ -1,0 +1,60 @@
+body {
+	overflow-y: scroll;
+	/* Завжди відображає вертикальний скролбар */
+	overflow-x: hidden;
+	/* Забороняє горизонтальну прокрутку */
+	background-color: $background-color;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	padding: 0 150px;
+}
+
+
+@media (max-width: 1200px) {
+	.container {
+		padding: 0 100px;
+	}
+}
+@media (max-width: 992px) {
+	.container {
+		padding: 0 50px;
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+		padding: 0 10px;
+	}
+}
+
+
+
+.koulen-regular {
+	font-family: "Koulen", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+.koulen-regular-light {
+	font-family: "Koulen", sans-serif;
+	font-weight: 100;
+	font-style: normal;
+}
+
+
+.jomhuria-regular {
+	font-family: "Jomhuria", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.kreon {
+	font-family: "Kreon", serif;
+	font-optical-sizing: auto;
+	font-weight: normal;
+	font-style: normal;
+}

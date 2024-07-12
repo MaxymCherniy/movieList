@@ -1,0 +1,26 @@
+.header {
+	background-color: $primary-light;
+	padding: 10px 0;
+
+	&__content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 50px;
+		transition: all 0.7s ease;
+		width: 100%;
+		&.show {
+			gap: 20px;
+			justify-content: flex-start;
+		}
+	}
+}
+
+@media (max-width: 1172px) {
+	.header {
+		&__content {
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+}

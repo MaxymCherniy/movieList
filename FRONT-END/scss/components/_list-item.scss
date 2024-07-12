@@ -1,0 +1,48 @@
+.list-item {
+	width: 100%;
+	height: 120px;
+	background-color: $primary-light-dark;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	&__left {
+		display: flex;
+	}
+	&__img {
+		height: 80px;
+		margin-right: 15px;
+	}
+
+	&__info {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	&__genre {
+		display: flex;
+	}
+	&__title {
+		font-size: 34px;
+	}
+	&__text {
+		font-size: 20px;
+	}
+	&:hover {
+		background-color: $primary-light-dark-2;
+	}
+	&__title {
+		font-size: 18px;
+	}
+	&__rate {
+		display: flex;
+		font-size: 38px;
+		color: rgb(55, 55, 55);
+
+		& span {
+			color: #FFC700;
+		}
+	}
+}
+
+

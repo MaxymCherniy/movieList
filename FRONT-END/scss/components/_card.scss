@@ -1,0 +1,51 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	height: 435px;
+	width: 290px;
+	background: rgba(128, 128, 128, 0.466);
+	border-radius: 20px;
+	border: 1px black solid;
+	padding: 10px;
+	justify-content: space-between;
+	
+	
+
+	&__title {
+		font-size: 20px;
+		margin-bottom: 11px;
+	}
+
+	&__info {
+		display: flex;
+		align-items: flex-end;
+		justify-content: space-between;
+		color: $primary-light;
+	}
+	&__pict {
+		position: relative;
+		height: 196px;
+		width: 100%;
+		border-radius: 20px;
+		margin-bottom: 5px;
+	}
+	&__img {
+		height: 300px;
+		width: 100%;
+		border-radius: 20px;
+		margin-bottom: 5px;
+	}
+
+	&__details {
+		display: flex;
+		gap: 10px;
+	}
+	&__rate {
+		font-size: 38px;
+		min-width: 100px;
+
+		& span {
+			color: #FFC700;
+		}
+	}
+}

@@ -1,0 +1,24 @@
+.close-btn {
+	border-radius: 5px;
+	transition: background-color 0.3s;
+	background-color: transparent;
+	border: none;
+	position: relative;
+	z-index: 10;
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 32px;
+
+	&:hover {
+		background-color: #bfbfbf;
+	}
+	&:active {
+		background-color: #a1a1a1;
+	}
+
+	&__img {
+		height: 16px;
+	}
+}

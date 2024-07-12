@@ -1,0 +1,8 @@
+.search-btn {
+	transition: background-color 0.3s;
+	border-radius: 5px;
+	padding: 10px 10px 5px 10px;
+	&:hover {
+		background-color: #bfbfbf;;
+	}
+}

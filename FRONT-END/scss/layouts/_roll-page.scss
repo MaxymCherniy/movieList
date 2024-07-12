@@ -1,0 +1,13 @@
+.roll-page {
+	position: absolute;
+	top: 150%;
+	width: 100%;
+	opacity: 0;
+	transition: top 1s, opacity 1s;
+	background-color: $primary-light-op;
+	padding: 30px 0;
+	&.show {
+		top: 0;
+		opacity: 1;
+	}
+}

@@ -1,0 +1,63 @@
+.nav-menu {
+	opacity: 1;
+	display: flex;
+	transition: opacity 1.5s;
+
+	&__list {
+		display: flex;
+		align-items: center;
+		gap: 90px;
+	}
+
+	&__link {
+		font-size: 40px;
+		transition: color 0.3s ease;
+
+		&:hover {
+			color: $primary-red;
+			cursor: pointer;
+		}
+	}
+
+	&__item {
+		user-select: none;
+
+	}
+
+	&.hidden {
+		position: absolute;
+		opacity: 0;
+		top: -100px;
+		/* Зміщення вгору */
+	}
+
+
+}
+
+@media (max-width: 1344px) {
+	.nav-menu {
+		&__link {
+			font-size: 30px;
+		}
+	}
+}
+
+
+
+@media (max-width: 1172px) {
+	.nav-menu {
+		&__list {
+			display: none;
+			visibility: hidden;
+			cursor: none;
+		}
+	}
+}
+
+.nav-menu {
+	&__list-visib {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+}
