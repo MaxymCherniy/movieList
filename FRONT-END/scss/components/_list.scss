@@ -1,0 +1,9 @@
+.list {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	& li:last-child {
+		border-radius: 0px 0px 15px 15px;
+	}
+}
+

@@ -14,6 +14,11 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&family=Roboto:wght@100;300;400&display=swap"
+		rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/main.css">
@@ -34,7 +39,7 @@
 			</li>
 			<li class="nav-menu__item">
 				<a class="nav-menu__link">Favorite movies</a>
-			</li>
+			</li>			
 		</ul>
 
 		<button class="close-btn"><img class="close-btn__img" src="images/free-icon-cross-4510630.png" alt=""></button>
@@ -51,20 +56,18 @@
 						<a class="nav-menu__link">Popular</a>
 					</li>
 
-					<li class="nav-menu__item">
+					<li class="nav-menu__item fav-list-btn">
 						<a class="nav-menu__link">Favorite movies</a>
 					</li>
 				</ul>
 			</nav>
-			<a class="header__search search-btn"><img src="images/magnifying-glass.png" alt=""></a>
-
-			<button class="burger-btn"><img class="burger-btn__img" src="images/Hamburger_icon.svg.png" alt=""></button>
+			
 			<div class="header__search-field search-field">
 				<form class="header__form search-field__form koulen-regular" action="">
 					<input class="search-field__input koulen-regular" type="text">
 				</form>
 				<div class="search-field__container">
-					<ul class="search-field__list">
+					<ul class="search-field__list list">
 						<li class="search-field__item list-item">
 							<div class="list-item__left">
 								<img class="list-item__img" src="images/test-img-2.avif" alt="">
@@ -72,12 +75,18 @@
 									<h3 class="list-item__title">green mile</h3>
 									<p class="list-item__text ">1994</p>
 									<div class="list-item__genre">
-										<p class="list-item__text ">Drama, History</p>
+										<p class="list-item__text">Drama, History</p>
 									</div>
 								</div>
 							</div>
-							<div class="list-item__rate">
-								<p class="koulen-regular"><span>★</span>8.3</p>
+							<div class="list-item__right">
+								<div class="list-item__addBtn">
+									<img class="list-item__square" src="images/fav-square.png" alt="">
+									<p class="list-item__addTofav-text koulen-regular">add to fav-list</p>
+								</div>
+								<div class="list-item__rate">
+									<p class="koulen-regular"><span>★</span>8.3</p>
+								</div>
 							</div>
 						</li>
 						<li class="search-field__item list-item">
@@ -87,12 +96,18 @@
 									<h3 class="list-item__title">green mile</h3>
 									<p class="list-item__text ">1994</p>
 									<div class="list-item__genre">
-										<p class="list-item__text ">Drama, History</p>
+										<p class="list-item__text">Drama, History</p>
 									</div>
 								</div>
 							</div>
-							<div class="list-item__rate">
-								<p class="koulen-regular"><span>★</span>8.3</p>
+							<div class="list-item__right">
+								<div class="list-item__addBtn">
+									<img class="list-item__square" src="images/fav-square.png" alt="">
+									<p class="list-item__addTofav-text koulen-regular">add to fav-list</p>
+								</div>
+								<div class="list-item__rate">
+									<p class="koulen-regular"><span>★</span>8.3</p>
+								</div>
 							</div>
 						</li>
 						<li class="search-field__item list-item">
@@ -102,49 +117,27 @@
 									<h3 class="list-item__title">green mile</h3>
 									<p class="list-item__text ">1994</p>
 									<div class="list-item__genre">
-										<p class="list-item__text ">Drama, History</p>
+										<p class="list-item__text">Drama, History</p>
 									</div>
 								</div>
 							</div>
-							<div class="list-item__rate">
-								<p class="koulen-regular"><span>★</span>8.3</p>
-							</div>
-						</li>
-						<li class="search-field__item list-item">
-							<div class="list-item__left">
-								<img class="list-item__img" src="images/test-img-2.avif" alt="">
-								<div class="list-item__info koulen-regular">
-									<h3 class="list-item__title">green mile</h3>
-									<p class="list-item__text ">1994</p>
-									<div class="list-item__genre">
-										<p class="list-item__text ">Drama, History</p>
-									</div>
+							<div class="list-item__right">
+								<div class="list-item__addBtn">
+									<img class="list-item__square" src="images/fav-square.png" alt="">
+									<p class="list-item__addTofav-text koulen-regular">add to fav-list</p>
+								</div>
+								<div class="list-item__rate">
+									<p class="koulen-regular"><span>★</span>8.3</p>
 								</div>
 							</div>
-							<div class="list-item__rate">
-								<p class="koulen-regular"><span>★</span>8.3</p>
-							</div>
 						</li>
-						<li class="search-field__item list-item">
-							<div class="list-item__left">
-								<img class="list-item__img" src="images/test-img-2.avif" alt="">
-								<div class="list-item__info koulen-regular">
-									<h3 class="list-item__title">green mile</h3>
-									<p class="list-item__text ">1994</p>
-									<div class="list-item__genre">
-										<p class="list-item__text ">Drama, History</p>
-									</div>
-								</div>
-							</div>
-							<div class="list-item__rate">
-								<p class="koulen-regular"><span>★</span>8.3</p>
-							</div>
-						</li>
-						
-						
 
 					</ul>
 				</div>
+			</div>
+			<div class="header__right">
+				<a class="header__search search-btn"><img src="images/magnifying-glass.png" alt=""></a>
+				<button class="burger-btn"><img class="burger-btn__img" src="images/Hamburger_icon.svg.png" alt=""></button>
 			</div>
 		</div>
 	</header>
@@ -165,6 +158,128 @@
 
 			</div>
 
+		</section>
+
+		<section class="roll-page-fav">
+			<div class="roll-page-fav__item-list list">
+				<ul class="list list-fav container">
+					<li class="list-item">
+						<div class="list-item__left">
+							<img class="list-item__img" src="images/test-img-2.avif" alt="">
+							<div class="list-item__info koulen-regular">
+								<h3 class="list-item__title">green mile</h3>
+								<p class="list-item__text ">1994</p>
+								<div class="list-item__genre">
+									<p class="list-item__text">Drama, History</p>
+								</div>
+							</div>
+						</div>
+						<div class="list-item__right">
+							<div class="list-item__addBtn">
+								<img class="list-item__square" src="images/fav-square.png" alt="">
+								<p class="list-item__addTofav-text koulen-regular">add to fav-list</p>
+							</div>
+							
+						</div>
+					</li>
+					<li class="list-item">
+						<div class="list-item__left">
+							<img class="list-item__img" src="images/test-img-2.avif" alt="">
+							<div class="list-item__info koulen-regular">
+								<h3 class="list-item__title">green mile</h3>
+								<p class="list-item__text ">1994</p>
+								<div class="list-item__genre">
+									<p class="list-item__text">Drama, History</p>
+								</div>
+							</div>
+						</div>
+						<div class="list-item__right">
+							<div class="list-item__addBtn">
+								<img class="list-item__square" src="images/fav-square.png" alt="">
+								<p class="list-item__addTofav-text koulen-regular">add to fav-list</p>
+							</div>
+							
+						</div>
+					</li>
+					<li class="list-item">
+						<div class="list-item__left">
+							<img class="list-item__img" src="images/test-img-2.avif" alt="">
+							<div class="list-item__info koulen-regular">
+								<h3 class="list-item__title">green mile</h3>
+								<p class="list-item__text ">1994</p>
+								<div class="list-item__genre">
+									<p class="list-item__text">Drama, History</p>
+								</div>
+							</div>
+						</div>
+						<div class="list-item__right">
+							<div class="list-item__addBtn">
+								<img class="list-item__square" src="images/fav-square.png" alt="">
+								<p class="list-item__addTofav-text koulen-regular">add to fav-list</p>
+							</div>
+							
+						</div>
+					</li>
+					<li class="list-item">
+						<div class="list-item__left">
+							<img class="list-item__img" src="images/test-img-2.avif" alt="">
+							<div class="list-item__info koulen-regular">
+								<h3 class="list-item__title">green mile</h3>
+								<p class="list-item__text ">1994</p>
+								<div class="list-item__genre">
+									<p class="list-item__text">Drama, History</p>
+								</div>
+							</div>
+						</div>
+						<div class="list-item__right">
+							<div class="list-item__addBtn">
+								<img class="list-item__square" src="images/fav-square.png" alt="">
+								<p class="list-item__addTofav-text koulen-regular">add to fav-list</p>
+							</div>
+							
+						</div>
+					</li>
+					<li class="list-item">
+						<div class="list-item__left">
+							<img class="list-item__img" src="images/test-img-2.avif" alt="">
+							<div class="list-item__info koulen-regular">
+								<h3 class="list-item__title">green mile</h3>
+								<p class="list-item__text ">1994</p>
+								<div class="list-item__genre">
+									<p class="list-item__text">Drama, History</p>
+								</div>
+							</div>
+						</div>
+						<div class="list-item__right">
+							<div class="list-item__addBtn">
+								<img class="list-item__square" src="images/fav-square.png" alt="">
+								<p class="list-item__addTofav-text koulen-regular">add to fav-list</p>
+							</div>
+							
+						</div>
+					</li>
+					<li class="list-item">
+						<div class="list-item__left">
+							<img class="list-item__img" src="images/test-img-2.avif" alt="">
+							<div class="list-item__info koulen-regular">
+								<h3 class="list-item__title">green mile</h3>
+								<p class="list-item__text ">1994</p>
+								<div class="list-item__genre">
+									<p class="list-item__text">Drama, History</p>
+								</div>
+							</div>
+						</div>
+						<div class="list-item__right">
+							<div class="list-item__addBtn">
+								<img class="list-item__square" src="images/fav-square.png" alt="">
+								<p class="list-item__addTofav-text koulen-regular">add to fav-list</p>
+							</div>
+							
+						</div>
+					</li>
+					
+				</ul>
+			</div>
 		</section>
 	</main>
 	<script src="frontend.js"></script>
